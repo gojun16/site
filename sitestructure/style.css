@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    font-family: serif;
+    background-color: darkgrey;
+    box-sizing: border-box;
+}
+
+#wallone {
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: row; /* Corrige a posição do fundo em relação à janela de visualização */
+    position: ; /* Adiciona contexto de posicionamento para elementos filhos */
+    width: 100%; /* Define a largura do contêiner para corresponder ao tamanho do fundo */
+    height: 500px; /* Define a altura do contêiner para corresponder ao tamanho do fundo */
+}
+
+#ffp {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+#title {
+    position: absolute; /* Posiciona o título de forma absoluta */
+    top: 0; /* Alinha o topo do título com o topo do contêiner */
+    left: 0; /* Alinha a esquerda do título com a esquerda do contêiner */
+    width: 100%; /* Faz o título ocupar toda a largura do contêiner */
+    padding-top: 5px;
+    padding-bottom: 240px;
+    font-size: 30px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1)20%,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 1));
+    background-position: 0 0;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 30px;
+    color: white; /* Define a cor do texto para garantir legibilidade */
+    z-index: 1; /* Garante que o título fique acima do fundo */
+}
+#text1{
+    margin-top: 100px;
+}
+#erika{
+    border-style: double;
+    border-width: 30px;
+    border-color: brown;
+}
+.produto{
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
