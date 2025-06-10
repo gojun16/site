@@ -87,8 +87,18 @@ a{
     color: white;
     border: none;
     border-radius: 10px;
+    position: relative;
 }
-
+.produtos::after{
+    content:"";
+    position:absolut;
+    background-color: orange;
+    left: 0px;
+    right: 0px;
+ 
+    
+}
+    
 div.produto{
     margin: 10px;
     padding: 8px;
