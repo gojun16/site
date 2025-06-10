@@ -77,11 +77,16 @@ a{
     font-size: 2em;
 }
 
-#produtos {
+.produtos {
     display: flex;
     flex-wrap: wrap;
     font-size: 1.5em;
     text-decoration:none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 
 div.produto{
